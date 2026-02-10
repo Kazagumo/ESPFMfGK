@@ -148,7 +148,9 @@
 
      For compatibility reasons, the fileManagerServerStaticsInternally is activated by default.
 */
+#ifndef fileManagerServerStaticsInternallyDeflate
 #define fileManagerServerStaticsInternally
+#endif
 // #define fileManagerServerStaticsInternallyDeflate
 
 // if you do not need the "download all files" function, commenting out this define saves about 4k code space
